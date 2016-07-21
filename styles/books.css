@@ -1,0 +1,65 @@
+header{
+    background: #ddd;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-align: center;
+}
+header a{
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+header a:hover {
+    background: #aaa;
+}
+#loadingBox, #infoBox, #errorBox{
+    display: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+}
+#loadingBox{
+     background: #7cb3e9;
+}
+#infoBox{
+    background: #393;
+}
+#errorBox{
+    background: #f50;
+    color: white;
+}
+main > section{
+    display: none;
+}
+
+#formAddComment{
+    display: none;
+}
+#formAddComment div{
+    display: inline-block;
+}
+#commentsView{
+    background: #eee;
+}
+
+table th{
+    background: #aaa;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+table td{
+    background: #ddd;
+    padding: 5px 10px;
+}
+
+footer{
+    background: #ddd;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 0.8em;
+    margin: 10px 0;
+}
