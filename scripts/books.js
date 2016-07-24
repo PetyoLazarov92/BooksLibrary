@@ -122,7 +122,8 @@ function showListBooksView() {
             booksTable.append($("<tr>")
                     .append($('<td></td>').text(book.title))
                     .append($('<td></td>').text(book.author))
-                    .append($('<td></td>').text(book.description))
+                    .append($('<td></td>').text(book.description))				
+					
             );
             for (let book of books){
                 let bookData = {
